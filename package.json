@@ -1,0 +1,24 @@
+{
+  "name": "wcf-cli",
+  "version": "0.0.1",
+  "description": "创建文件的 辅助脚手架",
+  "main": "index.js",
+  "bin": {
+    "wcf": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "file",
+    "react",
+    "antd"
+  ],
+  "author": "wangyuchao",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.1.0",
+    "fs-extra": "^8.1.0"
+  }
+}

@@ -1,0 +1,26 @@
+import { <%fileName%> } from '@/services/<%fileName%>';
+
+const <%fileName%>Model = {
+  namespace: '<%fileName%>',
+  state: {},
+  effects: {
+    *getList(_, { call, put }) {
+      const response = yield call(<%fileName%>);
+      yield put({
+        type: 'save<%fileName%>',
+        payload: response.datas,
+      });
+    }
+  },
+  reducers: {
+    save<%fileName%>(state, { payload }) {
+      return {
+        ...state,
+        ...payload
+      };
+    }
+  }
+
+}
+
+export default <%fileName%>Model;

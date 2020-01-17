@@ -1,0 +1,23 @@
+import React from 'react';
+import styles from './index.less';
+
+class <%fileName%> extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
+
+  componentDidMount() {
+
+  }
+
+  return () {
+    render(
+      <div className={styles.<%cssFileName%>Wrap}>
+        <%fileName%>
+      </div>
+    )
+  }
+}
+
+export default <%fileName%>;
