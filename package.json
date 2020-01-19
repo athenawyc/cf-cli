@@ -1,6 +1,6 @@
 {
   "name": "wcf-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "创建文件的 辅助脚手架",
   "main": "index.js",
   "email": "athenawyc@126.com",
