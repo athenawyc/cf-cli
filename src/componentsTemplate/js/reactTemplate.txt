@@ -11,8 +11,8 @@ class <%fileName%> extends React.Component {
 
   }
 
-  return () {
-    render(
+  render() {
+    return (
       <div className={styles.<%cssFileName%>Wrap}>
         <%fileName%>
       </div>

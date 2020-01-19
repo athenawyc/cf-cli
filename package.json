@@ -1,11 +1,13 @@
 {
   "name": "wcf-cli",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "创建文件的 辅助脚手架",
   "main": "index.js",
+  "email": "athenawyc@126.com",
   "bin": {
     "wcf": "./bin/index.js"
   },
+  "registry": "https://github.com/athenawyc/cf-cli",
   "scripts": {
     "test": "test"
   },
